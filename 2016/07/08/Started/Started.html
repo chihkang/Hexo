@@ -1,0 +1,44 @@
+<hr>
+<p>title: Hexo - Getting Started<br>tags: </p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="- Hexo"></a>- Hexo</h2><p><a href="https://hexo.io/zh-tw/">Hexo</a>是一款簡易又快速的網誌框架</p>
+<p>最近看到許多人都利用它來紀錄和分享一些文章，而且還可以搭配</p>
+<p><a href="https://github.com/">GitHub</a>來使用，現在就來分享相關心得。</p>
+<h3 id="安裝-Install"><a href="#安裝-Install" class="headerlink" title="安裝(Install)"></a>安裝(Install)</h3><p>首先要安裝</p>
+<ul>
+<li><a href="https://nodejs.org/en/">Node.js</a></li>
+<li><a href="https://git-scm.com/">Git</a></li>
+</ul>
+<p>安裝好後，執行下列語法即可完成Hexo的安裝</p>
+<pre><code class="sh">$ npm install -g hexo-cli
+</code></pre>
+<h3 id="建置-Build"><a href="#建置-Build" class="headerlink" title="建置(Build)"></a>建置(Build)</h3><pre><code class="sh">$ hexo init &lt;folder&gt;
+</code></pre>
+<p>建立好後，稍微檢視一下相關檔案</p>
+<ul>
+<li>_config.yml 是 Hexo 站台的設定檔 <a href="https://hexo.io/zh-tw/docs/configuration.html">config</a><br>擷取相關資料提供參考<br>```<h1 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h1>title: Your Blog Title<br>subtitle: Your Blog subTitle<br>description:<br>author: Your Name<br>language:</li>
+</ul>
+<ul>
+<li>zh-tw</li>
+<li>en<br>timezone: Asia/Taipei</li>
+</ul>
+<h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><h2 id="If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child‘-and-root-as-‘-child-‘"><a href="#If-your-site-is-put-in-a-subdirectory-set-url-as-‘http-yoursite-com-child‘-and-root-as-‘-child-‘" class="headerlink" title="If your site is put in a subdirectory, set url as ‘http://yoursite.com/child‘ and root as ‘/child/‘"></a>If your site is put in a subdirectory, set url as ‘<a href="http://yoursite.com/child">http://yoursite.com/child</a>‘ and root as ‘/child/‘</h2><p>url: Your Url<br>root: /<br>permalink: :year/:month/:day/:title/<br>permalink_defaults:</p>
+<pre><code>&gt; **Note:** Url的部分要特別注意，如果預計使用http://yoursite.com/child/
+root也要一併修改成/child/
+
+* package.json 是 Node.js 的套件設定檔。[semver 參考](https://docs.npmjs.com/misc/semver)
+</code></pre><p>{<br>  “name”: “hexo-site”,<br>  “version”: “0.0.0”,<br>  “private”: true,<br>  “hexo”: {<br>    “version”: “3.2.2”<br>  },<br>  “dependencies”: {<br>    “hexo”: “^3.2.0”,<br>    “hexo-browsersync”: “^0.2.0”,<br>    “hexo-deployer-git”: “^0.2.0”,<br>    “hexo-generator-archive”: “^0.1.4”,<br>    “hexo-generator-category”: “^0.1.3”,<br>    “hexo-generator-feed”: “^1.1.0”,<br>    “hexo-generator-index”: “^0.2.0”,<br>    “hexo-generator-sitemap”: “^1.1.2”,<br>    “hexo-generator-tag”: “^0.2.0”,<br>    “hexo-renderer-ejs”: “^0.2.0”,<br>    “hexo-renderer-jade”: “^0.3.0”,<br>    “hexo-renderer-less”: “^0.2.0”,<br>    “hexo-renderer-marked”: “^0.2.10”,<br>    “hexo-renderer-stylus”: “^0.3.1”,<br>    “hexo-server”: “^0.2.0”<br>  }<br>}</p>
+<pre><code>* [Scaffoids](https://hexo.io/zh-tw/docs/writing.html#鷹架（Scaffold）) 當您建立新文章時，Hexo 會根據 scaffold 來建立檔案。
+
+* source 原始檔案資料夾放置內容的地方。
+
+* [themes](https://hexo.io/zh-tw/docs/themes.html) Hexo 會根據themes來產生靜態檔案。
+
+* [scripts](https://hexo.io/zh-tw/docs/plugins.html#腳本（Scripts）) 在此資料夾內的 JavaScript 檔案會被自動執行。
+
+最後再執行下列語法，就大功告成啦!
+
+```sh
+$ cd &lt;folder&gt;
+$ npm install
+$ hexo server
+</code></pre><p>一旦server執行後使用瀏覽器瀏覽 <a href="http://localhost:4000">http://localhost:4000</a> 即可看到部落格運行起來的樣子。</p>
