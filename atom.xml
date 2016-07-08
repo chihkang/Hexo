@@ -5,7 +5,7 @@
   <link href="/Hexo/atom.xml" rel="self"/>
   
   <link href="https://chihkang.github.io/Hexo/"/>
-  <updated>2016-07-08T15:45:14.911Z</updated>
+  <updated>2016-07-08T15:53:16.390Z</updated>
   <id>https://chihkang.github.io/Hexo/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://chihkang.github.io/Hexo/2016/07/08/Started/"/>
     <id>https://chihkang.github.io/Hexo/2016/07/08/Started/</id>
     <published>2016-07-08T15:08:13.971Z</published>
-    <updated>2016-07-08T15:45:14.911Z</updated>
+    <updated>2016-07-08T15:53:16.390Z</updated>
     
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;&amp;#x662F;&amp;#x4E00;&amp;#x6B3E;&amp;#x7C21;&amp;#x6613;&amp;#x53C8;&amp;#x5FEB;&amp;#x901F;&amp;#x7684;&amp;#x7DB2;&amp;#x8A8C;&amp;#x6846;&amp;#x67B6;&lt;/p&gt;
 &lt;p&gt;&amp;#x6700;&amp;#x8FD1;&amp;#x770B;&amp;#x5230;&amp;#x8A31;&amp;#x591A;&amp;#x4EBA;&amp;#x90FD;&amp;#x5229;&amp;#x7528;&amp;#x5B83;&amp;#x4F86;&amp;#x7D00;&amp;#x9304;&amp;#x548C;&amp;#x5206;&amp;#x4EAB;&amp;#x4E00;&amp;#x4E9B;&amp;#x6587;&amp;#x7AE0;&amp;#xFF0C;&amp;#x800C;&amp;#x4E14;&amp;#x9084;&amp;#x53EF;&amp;#x4EE5;&amp;#x642D;&amp;#x914D;&lt;/p&gt;
@@ -57,7 +57,6 @@
 &lt;p&gt;&amp;#x6700;&amp;#x5F8C;&amp;#x518D;&amp;#x57F7;&amp;#x884C;&amp;#x4E0B;&amp;#x5217;&amp;#x8A9E;&amp;#x6CD5;&amp;#xFF0C;&amp;#x5C31;&amp;#x5927;&amp;#x529F;&amp;#x544A;&amp;#x6210;&amp;#x5566;!&lt;/p&gt;
 &lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &amp;lt;folder&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ npm install&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&amp;#x4E00;&amp;#x65E6;server&amp;#x57F7;&amp;#x884C;&amp;#x5F8C;&amp;#x4F7F;&amp;#x7528;&amp;#x700F;&amp;#x89BD;&amp;#x5668;&amp;#x700F;&amp;#x89BD; &lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000&lt;/a&gt; &amp;#x5373;&amp;#x53EF;&amp;#x770B;&amp;#x5230;&amp;#x90E8;&amp;#x843D;&amp;#x683C;&amp;#x904B;&amp;#x884C;&amp;#x8D77;&amp;#x4F86;&amp;#x7684;&amp;#x6A23;&amp;#x5B50;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Hexo/Hexo/2016/07/08/Started/Hexo-Getting-Started.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;/Hexo/Hexo/2016/07/08/Started/img1.png&quot; alt=&quot;screenShot&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
